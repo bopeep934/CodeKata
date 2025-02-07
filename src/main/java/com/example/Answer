@@ -36,3 +36,9 @@
                   answer[i][j] += arr2[i][j];
               }
           }
+
+<solution 38.직사각형 별찍기>
+다른 분 코드 정답 1)
+     StringBuilder sb = new StringBuilder();
+     IntStream.range(0, a).forEach(s -> sb.append("*"));
+     IntStream.range(0, b).forEach(s -> System.out.println(sb.toString()));
