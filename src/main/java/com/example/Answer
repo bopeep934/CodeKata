@@ -42,3 +42,13 @@
      StringBuilder sb = new StringBuilder();
      IntStream.range(0, a).forEach(s -> sb.append("*"));
      IntStream.range(0, b).forEach(s -> System.out.println(sb.toString()));
+
+<solution 40.3진법 뒤집기>
+다른 분 코드 정답 1)
+       String a = "";
+        while(n > 0){
+            a = (n % 3) + a;
+            n /= 3;
+        }
+        a = new StringBuilder(a).reverse().toString();
+        return Integer.parseInt(a,3);
