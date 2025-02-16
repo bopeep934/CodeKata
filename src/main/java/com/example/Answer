@@ -52,3 +52,15 @@
         }
         a = new StringBuilder(a).reverse().toString();
         return Integer.parseInt(a,3);
+
+<solution 41.이상한 문자 만들기>
+다른 분 코드 정답 1)
+     String answer = "";
+        int cnt = 0;
+        String[] array = s.split("");
+
+        for(String ss : array) {
+            cnt = ss.contains(" ") ? 0 : cnt + 1;
+            answer += cnt%2 == 0 ? ss.toLowerCase() : ss.toUpperCase();
+        }
+      return answer;
