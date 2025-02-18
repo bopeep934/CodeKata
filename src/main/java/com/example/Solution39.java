@@ -42,8 +42,6 @@ public class Solution39 {
 
         answer[1]=(n*m)/c;
 
-        System.out.println(answer[0]+"," + answer[1]);
-
         return answer;
     }
 }

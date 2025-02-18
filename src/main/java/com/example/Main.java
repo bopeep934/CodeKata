@@ -13,9 +13,11 @@ public class Main {
 //        int[][] b={{3,4},{5,6}};
 //        int [][] c=s.solution37(a,b);
 //        s.solution38();
-//       s.solution39(5,15);
-//        System.out.println(s.solution40(45));
-//        System.out.println(s.solution41("try hello world"));
+
+//      s.solution39(5,15);
+
+       int[] a={-3, -2, -1, 0, 1, 2, 3};
+        System.out.println(s.solution42(a));
 
 
     }

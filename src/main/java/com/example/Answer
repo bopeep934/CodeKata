@@ -43,6 +43,18 @@
      IntStream.range(0, a).forEach(s -> sb.append("*"));
      IntStream.range(0, b).forEach(s -> System.out.println(sb.toString()));
 
+<solution 39. 최대공약수와 최소공배수>
+int[] answer =new int[2];
+answer[0]= gcd(a,b);
+answer[1]=(a*b)/answer[0];
+...
+public static int gcd(int p, int q){
+if(q==0)
+  reutrn p;
+return gcd(q, p%q);
+}
+
+
 <solution 40.3진법 뒤집기>
 다른 분 코드 정답 1)
        String a = "";
