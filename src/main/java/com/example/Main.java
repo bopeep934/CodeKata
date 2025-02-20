@@ -16,9 +16,10 @@ public class Main {
 
 //      s.solution39(5,15);
 
-       int[] a={-3, -2, -1, 0, 1, 2, 3};
-        System.out.println(s.solution42(a));
+//        int[] a = {-3, -2, -1, 0, 1, 2, 3};
+//        System.out.println(s.solution42(a));
 
+//        System.out.println(s.solution43(a));
 
     }
 
