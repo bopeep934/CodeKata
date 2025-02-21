@@ -3,7 +3,7 @@ package com.example;
 public class Main {
     public static void main(String[] args) {
 
-        Solution42 s = new Solution42();
+        Solution43 s = new Solution43();
 
         //System.out.println(s.solution34("Zbcdefg"));
         //System.out.println(s.solution35(3,20,4));
@@ -19,7 +19,7 @@ public class Main {
 //        int[] a = {-3, -2, -1, 0, 1, 2, 3};
 //        System.out.println(s.solution42(a));
 
-//        System.out.println(s.solution43(a));
+        System.out.println(s.solution43("3141592"	,"271"	));
 
     }
 
