@@ -3,7 +3,7 @@ package com.example;
 public class Main {
     public static void main(String[] args) {
 
-        Solution47 s = new Solution47();
+        Solution48 s = new Solution48();
 
         //System.out.println(s.solution34("Zbcdefg"));
         //System.out.println(s.solution35(3,20,4));
@@ -24,12 +24,16 @@ public class Main {
 
 //        System.out.println(s.solution45("BC",4	));
 
-        String[] strings={"abcd","abce","cdx"};
-        String[] strings2=s.solution47(strings, 2);
+//        String[] strings={"abcd","abce","cdx"};
+//        String[] strings2=s.solution47(strings, 2);
 
-        for(String a: strings2)
-            System.out.print(a);
+        int[] arrays={1,5,2,6,3,7,4};
+        int[][] commands={{2,5,3},{4,4,1},{1,7,3}};
 
+        int[] arrays2= s.solution48( arrays, commands) ;
+
+        for(int i: arrays2)
+            System.out.print(i+ ", ");
     }
 
 }
