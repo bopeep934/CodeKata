@@ -27,7 +27,7 @@ public class Main {
 //        String[] strings={"abcd","abce","cdx"};
 //        String[] strings2=s.solution47(strings, 2);
 
-        int[] arrays={2,1,3,4,1};
+        int[] arrays={5,0,2,7};
 //        int[][] commands={{2,5,3},{4,4,1},{1,7,3}};
 //
         int[] arrays2= s.solution49( arrays ) ;
