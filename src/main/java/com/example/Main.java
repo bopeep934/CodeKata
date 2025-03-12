@@ -3,7 +3,7 @@ package com.example;
 public class Main {
     public static void main(String[] args) {
 
-        Solution54 s = new Solution54();
+        Solution55 s = new Solution55();
 
         //System.out.println(s.solution34("Zbcdefg"));
         //System.out.println(s.solution35(3,20,4));
@@ -42,6 +42,9 @@ public class Main {
 //            System.out.println(i + ",");
 //        }
 
-        System.out.println(s.solution54(5,24));
+        String[] cards1={"a", "b", "c"};
+        String[] cards2={"d", "e", "f"};
+        String[] goal={"a", "d", "f"};
+        System.out.println(s.solution55(cards1,cards2,goal));
     }
 }
