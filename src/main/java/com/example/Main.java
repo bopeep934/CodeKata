@@ -47,7 +47,7 @@ public class Main {
 //        String[] goal={"a", "d", "f"};
 //        System.out.println(s.solution55(cards1,cards2,goal));
 
-        int[] score = {1,2,3,1,2,3,1};
-        System.out.println(s.solution56(3,4,score));
+        int[] score = {4, 1, 2, 2, 4, 4, 4, 4, 1, 2, 4, 2};
+        System.out.println(s.solution56(4,3,score));
     }
 }
