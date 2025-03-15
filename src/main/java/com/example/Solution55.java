@@ -15,7 +15,6 @@ public class Solution55 {
         for (String s : cards2)
             card2.add(s);
 
-        int length = cards1.length + cards2.length;
         String com = "";
         for (int i = 0; i < goal.length; i++) {
             com = goal[i];
@@ -30,6 +29,8 @@ public class Solution55 {
                 break;
             }
         }
+        if(com.equals(goal[goal.length-1]))
+            answer="Yes";
 
         return answer;
     }
