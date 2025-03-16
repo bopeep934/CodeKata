@@ -12,9 +12,16 @@ public class Solution57 {
         int b = 0;
         int c = 0;
 
+        for(int i=0;i<answers.length;i++){
+            for(int j=0; j<math1.length;j++){
+                if (math1[i] == answers[i])
+                    a++;
+            }
+        }
+
         for (int i = 0; i < answers.length; i++) {
             if(math1.length<i)
-                b++;
+                a++;
             if (math1[i] == answers[i])
                 a++;
             if (math2[i] == answers[i])
