@@ -48,9 +48,9 @@ public class Main {
 //        System.out.println(s.solution55(cards1,cards2,goal));
 
         int[] answers={1,2,3,4,5};
-        s.solution57(answers);
+        int[] a57 = s.solution57(answers);
 
-        for(int i: answers)
+        for(int i: a57)
             System.out.println(i);
     }
 }
